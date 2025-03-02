@@ -20,17 +20,17 @@
                     <li class="text-orange-500 hover:underline"><a class="font-bold text-3xl"
                             href="#index.html">Home</a>
                     </li>
-                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="">About Us</a></li>
-                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="">Services</a></li>
-                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="">Portfolio</a></li>
-                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="">Team</a></li>
+                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="#about">About Us</a></li>
+                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="#services">Services</a></li>
+                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="#portfolio">Portfolio</a></li>
+                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="#team">Team</a></li>
                     <li>
                         <div class="relative inline-block text-left">
                             <button class="text-gray-500 rounded-md hover:bg-orange-500 font-bold text-3xl
                                 focus:outline-none" id="dropdownButton">Drop Down▼</button>
                         </div>
                     </li>
-                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="">Contact</a></li>
+                    <li class="text-gray-500 hover:underline"><a class="font-bold text-3xl" href="#contact">Contact</a></li>
                     <button class="bg-orange-500 rounded-sm text-3xl">Get Started</button>
                 </ul>
             </div>
@@ -50,6 +50,7 @@
         </div>
     
     <!--section 03-->
+    <section id="services">
 <div class=" flex justify-center space-x-30">
     <div>
     <img  class="h-110 w-100 mt-40" src="./Assets/Image/cake2.jpg">
@@ -73,9 +74,11 @@
        <p class="font-bold text-4xl">Order now and treat yourself to a slide of happiness</p>
     </div>
 </div>
+</section>
 <!--section 04-->
+<section id="portfolio">
 <div class="h-screen bg-orange-100">
-    <div class="grid justify-items-center space-y-4 pt-10">
+    <div class="grid justify-items-center space-y-4 pt-5">
         <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Portfolio</button>
         <h1 class="font-bold text-2xl">Check out our beautiful portfolio.</h1>
         <div class="flex">
@@ -87,7 +90,7 @@
     </div>
 
     <div class="flex flex-col items-center">
-        <div class="flex gap-3 items-center px-12 pt-10">                
+        <div class="flex gap-3 items-center px-10 pt-10">                
                                 <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
             <img  class="h-60 w-60" src="./Assets/Image/1.1.jpg">
                                 </div>
@@ -113,7 +116,9 @@
         </div>
         </div>
 </div>
+</section>
 <!--section 05-->
+<section id="team">
 <div class="h-screen bg-white-100">
     <div class="grid justify-items-center space-y-4 pt-10">
         <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Team</button>
@@ -136,10 +141,33 @@
                 </div>
             </div>
             </div>
+        </section>
         <!--section 06-->
-        
+        <div class="w-screen bg-white-100">
+    <div class="grid justify-items-center space-y-3">
+        <button class="bg-yellow-600 hover:bg-orange text-orange font-bold py-1 px-2 rounded text-sm">Clients</button>
+        <h1 class="font-bold text-2xl">They trusted Us.</h1>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="flex gap-3 items-center px-12 pt-10">                
+                                <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+            <img  class="h-70 w-60" src="./Assets/Image/logo.jpg">
+                                </div>
+                    <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+            <img class="h-70 w-60" src="./Assets/Image/logo1.jpg">
+            </div>
+            <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+            <img class="h-70 w-60" src="./Assets/Image/logo2.jpg">
+            </div>
+            <div class="flex flex-col items-center border-4 border-white border-t-orange-500 rounded-lg space-y-4 bg-white">
+                <img class="h-70 w-60" src="./Assets/Image/logo3.jpg">
+                </div>
+            </div>
+            </div>
 <!--section 07-->
-<footer class="mt-12 h-80 bg-gray-800 text-white">
+<section id="contact">
+<footer class="h-80 bg-gray-800 text-white">
     <div class="mx-auto flex space-x-6 mt-12 space-y-12">
 <div class="w-1/4">
 <div class="flex">
@@ -183,7 +211,7 @@
     </div>
     </div>
     </footer>
-    
+</section>
     <!--section 08-->
     <nav class="bg-white p-5 border-b,border-gray-700 text-left relative ">
         <div class="inline-block text-2xl">
@@ -219,6 +247,7 @@
 </nav>
 </div>
 <!--section 10-->
+<section id="about">
     <div class="grid justify-items-center space-y-4 pt-15">
     <div class="flex flex-col  md:flex-row">
     <div class="w-full md:w-1/2">
@@ -246,6 +275,6 @@
             
 </div>
 
-       
+</section>   
 </body>
 </html>
